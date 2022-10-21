@@ -35,7 +35,7 @@ class CleosUser extends User {
     * @param transaction  The transaction to be signed (a object that matches the RpcAPI structure).
     */
     signTransaction = async (transaction: any): Promise<SignTransactionResponse> => {
-        this.signHandler(transaction);
+        await this.signHandler(transaction);
         return this.returnEosjsTransaction(false, {});
     };
 
