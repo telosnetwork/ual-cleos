@@ -1,6 +1,6 @@
 {
   "name": "@telosnetwork/ual-cleos",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "description": "",
   "main": "dist/index.js",
   "repository": {
@@ -19,14 +19,14 @@
     "name": "Jesse Schulman"
   },
   "dependencies": {
-    "eosjs": "^20.0.3",
+    "eosjs": "^22.1.0",
     "text-encoding": "^0.7.0",
     "typescript": "^4.7.4",
     "universal-authenticator-library": "0.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.18.10",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "eslint": "^6.1.0",
